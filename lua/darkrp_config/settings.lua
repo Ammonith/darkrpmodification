@@ -46,11 +46,11 @@ GM.Config.canforcedooropen              = true
 -- chatsounds - sounds are played when some things are said in chat.
 GM.Config.chatsounds                    = true
 -- chiefjailpos - Allow the Chief to set the jail positions.
-GM.Config.chiefjailpos                  = true
+GM.Config.chiefjailpos                  = false
 -- cit_propertytax - Enable/disable property tax that is exclusive only for citizens.
 GM.Config.cit_propertytax               = false
 -- copscanunfreeze - Enable/disable the ability of cops to unfreeze other people's props.
-GM.Config.copscanunfreeze               = true
+GM.Config.copscanunfreeze               = false
 -- copscanunweld - Enable/disable the ability of cops to unweld other people's props.
 GM.Config.copscanunweld                 = false
 -- cpcanarrestcp - Allow/Disallow CPs to arrest other CPs.
@@ -64,11 +64,11 @@ GM.Config.customspawns                  = true
 -- deathblack - Whether or not a player sees black on death.
 GM.Config.deathblack                    = false
 -- showdeaths - Display kill information in the upper right corner of everyone's screen.
-GM.Config.showdeaths                    = true
+GM.Config.showdeaths                    = false
 -- deadtalk - Enable/disable whether people talk and use commands while dead.
-GM.Config.deadtalk                      = true
+GM.Config.deadtalk                      = false
 -- deadvoice - Enable/disable whether people talk through the microphone while dead.
-GM.Config.deadvoice                     = true
+GM.Config.deadvoice                     = false
 -- deathpov - Enable/disable whether people see their death in first person view.
 GM.Config.deathpov                      = false
 -- decalcleaner - Enable/Disable clearing every player's decals.
@@ -84,7 +84,7 @@ GM.Config.droppocketarrest              = false
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
 GM.Config.droppocketdeath               = true
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
-GM.Config.dropweapondeath               = false
+GM.Config.dropweapondeath               = true
 -- Whether players can drop the weapons they spawn with.
 GM.Config.dropspawnedweapons            = false
 -- dynamicvoice - Enable/disable whether only people in the same room as you can hear your mic.
@@ -92,7 +92,7 @@ GM.Config.dynamicvoice                  = true
 -- earthquakes - Enable/disable earthquakes.
 GM.Config.earthquakes                   = false
 -- enablebuypistol - Turn /buy on of off.
-GM.Config.enablebuypistol               = true
+GM.Config.enablebuypistol               = false
 -- enforceplayermodel - Whether or not to force players to use their role-defined character models.
 GM.Config.enforceplayermodel            = true
 -- globalshow - Whether or not to display player info above players' heads in-game.
@@ -100,7 +100,7 @@ GM.Config.globalshow                    = false
 -- ironshoot - Enable/disable whether people need iron sights to shoot.
 GM.Config.ironshoot                     = true
 -- showjob - Whether or not to display a player's job above their head in-game.
-GM.Config.showjob                       = true
+GM.Config.showjob                       = false
 -- letters - Enable/disable letter writing / typing.
 GM.Config.letters                       = true
 -- license - Enable/disable People need a license to be able to pick up guns.
@@ -114,9 +114,9 @@ GM.Config.logging                       = true
 -- lottery - Enable/disable creating lotteries for mayors.
 GM.Config.lottery                       = true
 -- showname - Whether or not to display a player's name above their head in-game.
-GM.Config.showname                      = true
+GM.Config.showname                      = false
 -- showhealth - Whether or not to display a player's health above their head in-game.
-GM.Config.showhealth                    = true
+GM.Config.showhealth                    = false
 -- needwantedforarrest - Enable/disable Cops can only arrest wanted people.
 GM.Config.needwantedforarrest           = false
 -- noguns - Enabling this feature bans Guns and Gun Dealers.
@@ -128,7 +128,7 @@ GM.Config.keepPickedUp                  = false
 -- instantjob - Enable/Disable instantly respawning when norespawn is false
 GM.Config.instantjob                    = false
 -- npcarrest - Enable/disable arresting npc's.
-GM.Config.npcarrest                     = true
+GM.Config.npcarrest                     = false
 -- ooc - Whether or not OOC tags are enabled.
 GM.Config.ooc                           = true
 -- propertytax - Enable/disable property tax.
@@ -172,7 +172,7 @@ GM.Config.wantedsuicide                 = false
 -- realisticfalldamage - Enable/Disable dynamic fall damage. Setting mp_falldamage to 1 will over-ride this.
 GM.Config.realisticfalldamage           = true
 -- printeroverheat - Whether the default money printer can overheat on its own.
-GM.Config.printeroverheat               = true
+GM.Config.printeroverheat               = false
 -- weaponCheckerHideDefault - Hide default weapons when checking weapons.
 GM.Config.weaponCheckerHideDefault      = true
 -- weaponCheckerHideNoLicense - Hide weapons that do not require a license.
@@ -182,11 +182,11 @@ GM.Config.weaponCheckerHideNoLicense    = false
 Value settings
 ]]
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs                     = 3
+GM.Config.adminnpcs                     = 2
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminsents                    = 1
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminvehicles                 = 3
+GM.Config.adminvehicles                 = 1
 -- adminweapons - Who can spawn weapons: 0: admins only, 1: supadmins only, 2: no one, 3: everyone
 GM.Config.adminweapons                  = 1
 -- arrestspeed - Sets the max arrest speed.
@@ -329,12 +329,12 @@ GM.Config.moneyModel = "models/props/cs_assault/money.mdl"
 GM.Config.lockdownsound = "npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.wav"
 
 -- The skin DarkRP uses. Set to "default" to use the GMod default derma theme.
-GM.Config.DarkRPSkin = "DarkRP"
-GM.Config.currency = "$"
+GM.Config.DarkRPSkin = "Ammonith"
+GM.Config.currency = "€"
 GM.Config.currencyThousandSeparator = ","
 GM.Config.chatCommandPrefix = "/"
 GM.Config.F1MenuHelpPage = "https://darkrp.miraheze.org/wiki/Main_Page"
-GM.Config.F1MenuHelpPageTitle = "DarkRP Wiki"
+GM.Config.F1MenuHelpPageTitle = "Ammonith Wiki"
 
 -- The sound that plays when you get a DarkRP notification
 GM.Config.notificationSound = "buttons/lightswitch2.wav"
@@ -347,8 +347,8 @@ GM.Config.DefaultPlayerGroups = {
 
 -- Custom modules in this addon that are disabled.
 GM.Config.DisabledCustomModules = {
-    ["hudreplacement"] = false,
-    ["extraf4tab"] = false,
+    ["hudreplacement"] = true,
+    ["extraf4tab"] = true,
 }
 
 -- The list of weapons that players are not allowed to drop. Items set to true are not allowed to be dropped.
@@ -373,9 +373,7 @@ GM.Config.DisallowDrop = {
 GM.Config.DefaultWeapons = {
     "keys",
     "weapon_physcannon",
-    "gmod_camera",
     "gmod_tool",
-    "pocket",
     "weapon_physgun",
 }
 
@@ -523,9 +521,9 @@ GM.Config.maxHitPrice = 50000
 -- The minimum distance between a hitman and his customer when they make the deal.
 GM.Config.minHitDistance = 150
 -- The text that tells the player he can press use on the hitman to request a hit.
-GM.Config.hudText = "I am a hitman.\nPress E on me to request a hit!"
+GM.Config.hudText = "Je suis tueur à gage.\nAppuyez sur E pour demander un contrat."
 -- The text above a hitman when he's got a hit.
-GM.Config.hitmanText = "Hit\naccepted!"
+GM.Config.hitmanText = "Contrat\naccepté !"
 -- The cooldown time for a hit target (so they aren't spam killed).
 GM.Config.hitTargetCooldown = 120
 -- How long a customer has to wait to be able to buy another hit (from the moment the hit is accepted).

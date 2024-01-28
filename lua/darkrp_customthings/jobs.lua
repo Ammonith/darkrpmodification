@@ -16,7 +16,19 @@ https://darkrp.miraheze.org/wiki/DarkRP:CustomJobFields
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
 
-
+TEAM_CITIZEN = DarkRP.createJob("Sans emplois", {
+    color = Color(0, 128, 255, 255),
+    model = {"models/player/kleiner.mdl"},
+    description = [[En tant que Sans Emploi, vous êtes un citoyen cherchant activement une opportunité pour contribuer à la société. Vous n'avez pas de rôle professionnel spécifique, mais cela ne signifie pas que vous ne pouvez pas jouer un rôle crucial dans le développement de la ville. Explorez différentes opportunités, faites-vous des contacts, et peut-être qu'une nouvelle carrière s'ouvrira à vous.]],
+    weapons = {},
+    command = "citizen",
+    max = 0,
+    salary = 50,
+    admin = 0,
+    vote = false,
+    category = "Métiers",
+    hasLicense = false
+})
 
 --[[---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted

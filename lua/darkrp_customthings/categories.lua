@@ -21,3 +21,20 @@ DarkRP.createCategory{
 Add new categories under the next line!
 ---------------------------------------------------------------------------]]
 
+DarkRP.createCategory{
+    name = "Métiers",
+    categorises = "job",
+    startExpanded = true,
+    color = Color(0, 125, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 100
+}
+
+DarkRP.createCategory{
+    name = "Meth",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(0, 125, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 100
+}
