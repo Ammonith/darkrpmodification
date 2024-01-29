@@ -249,9 +249,18 @@ Define which teams belong to civil protection
 Civil protection can set warrants, make people wanted and do some other police related things
 ---------------------------------------------------------------------------]]
 GAMEMODE.CivilProtection = {
-    [TEAM_POLICE] = true,
-    [TEAM_CHIEF] = true,
     [TEAM_MAYOR] = true,
+    [TEAM_BRIGADIER] = true,
+    [TEAM_BRIGADIER_CHEF] = true,
+    [TEAM_BRIGADIER_CHEFPRINCIPAL] = true,
+    [TEAM_GENDARME] = true,
+    [TEAM_ADJUDANT] = true,
+    [TEAM_ADJUDANT_CHEF] = true,
+    [TEAM_MAJOR] = true,
+    [TEAM_LIEUTENANT] = true,
+    [TEAM_CAPITAINE] = true,
+    [TEAM_COMMANDANT] = true,
+    [TEAM_COLONEL] = true,
 }
 --[[---------------------------------------------------------------------------
 Jobs that are hitmen (enables the hitman menu)
