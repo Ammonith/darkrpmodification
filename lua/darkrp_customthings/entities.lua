@@ -162,3 +162,52 @@ DarkRP.createEntity("Table d'emballage", {
 	cmd = "buyTable",
 	category = "Meth"
 })
+
+DarkRP.createEntity("Caméra", {
+	ent = "realistic_police_camera",
+	model = "models/wasted/wasted_kobralost_camera.mdl",
+	price = 500,
+	max = 10,
+	cmd = "realistic_police_camera",
+	allowed = TEAM_TECHNICIAN,
+	category = "Technicien"
+})
+
+DarkRP.createEntity("Écran", {
+	ent = "realistic_police_screen",
+	model = "models/props/cs_office/tv_plasma.mdl",
+	price = 500,
+	max = 1,
+	cmd = "realistic_police_screen",
+	category = "Technicien"
+})
+
+DarkRP.createEntity("Four à pizza", {
+    ent = "zpiz_oven",
+    model = "models/zerochain/props_pizza/zpizmak_oven.mdl",
+    price = 250,
+    max = 3,
+    cmd = "buyzpiz_PizzaOven",
+    allowed = TEAM_CUISINIER,
+    category = "Cuisinier"
+})
+
+DarkRP.createEntity("Frigo", {
+    ent = "zpiz_fridge",
+    model = "models/props_c17/FurnitureFridge001a.mdl",
+    price = 100,
+    max = 1,
+    cmd = "buyzpiz_fridge",
+    allowed = TEAM_CUISINIER,
+    category = "Cuisinier"
+})
+
+DarkRP.createEntity("Table de travail", {
+    ent = "zpf_workbench",
+    model = "models/zerochain/props_factory/zpf_workbench.mdl",
+    price = 1000,
+    max = 1,
+    cmd = "buyzpf_workbench",
+    allowed = {TEAM_OUVRIER},
+    category = "Ouvrier",
+})

@@ -23,11 +23,29 @@ Add new categories under the next line!
 
 DarkRP.createCategory{
     name = "Métiers",
-    categorises = "job",
+    categorises = "jobs",
     startExpanded = true,
     color = Color(0, 125, 255, 255),
     canSee = function(ply) return true end,
     sortOrder = 100
+}
+
+DarkRP.createCategory{
+    name = "Police",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 125, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 110
+}
+
+DarkRP.createCategory{
+    name = "Gendarmerie",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 125, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 120
 }
 
 DarkRP.createCategory{
@@ -37,4 +55,31 @@ DarkRP.createCategory{
     color = Color(0, 125, 255, 255),
     canSee = function(ply) return true end,
     sortOrder = 100
+}
+
+DarkRP.createCategory{
+	name = "Technicien",
+	categorises = "entities",
+	startExpanded = true,
+	color = Color(252, 133, 0),
+	canSee = function(ply) return true end,
+	sortOrder = 110
+}
+
+DarkRP.createCategory{
+    name = "Cuisinier",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(255, 107, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 120
+}
+
+DarkRP.createCategory{
+    name = "Ouvrier",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(65, 65,65, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 130
 }
