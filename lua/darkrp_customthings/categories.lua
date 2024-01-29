@@ -83,3 +83,21 @@ DarkRP.createCategory{
     canSee = function(ply) return true end,
     sortOrder = 130
 }
+
+DarkRP.createCategory{
+    name = "Imprimantes",
+    categorises = "entities",
+    startExpanded = false,
+    color = Color(130, 130, 130, 155),
+    canSee = function(ply) return true end,
+    sortOrder = 140,
+}
+    
+DarkRP.createCategory{
+    name = "Accessoires",
+    categorises = "entities",
+    startExpanded = false,
+    color = Color(130, 130, 130, 155),
+    canSee = function(ply) return true end,
+    sortOrder = 150,
+}

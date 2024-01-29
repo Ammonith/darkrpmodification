@@ -211,3 +211,243 @@ DarkRP.createEntity("Table de travail", {
     allowed = {TEAM_OUVRIER},
     category = "Ouvrier",
 })
+
+DarkRP.createEntity( "Imprimeur économique", {
+	ent = "lithium_economic_printer",
+	model = "models/2rek/printers/printer_3.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprintereconomic",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+	
+	DarkRP.createEntity( "Imprimeur en bronze", {
+	ent = "lithium_bronze_printer",
+	model = "models/2rek/printers/printer_5.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprinterbronze",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Imprimeur en fer", {
+	ent = "lithium_iron_printer",
+	model = "models/2rek/printers/printer_1.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprinteriron",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Imprimeur en argent", {
+	ent = "lithium_silver_printer",
+	model = "models/2rek/printers/printer_2.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprintersilver",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Imprimeur en obsidienne", {
+	ent = "lithium_obsidian_printer",
+	model = "models/2rek/printers/printer_4.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprinterobsidian",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Imprimante de donateur", {
+	ent = "lithium_donator_printer",
+	model = "models/2rek/printers/printer_6.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprinterdonator",
+	category = "Imprimantes",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Petit stockage", {
+	ent = "lithium_storage_small",
+	model = "models/2rek/printers/storage_small.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumsmallstorage",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Stockage moyen", {
+	ent = "lithium_storage_medium",
+	model = "models/2rek/printers/storage_medium.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiummediumstorage",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Grand stockage", {
+	ent = "lithium_storage_large",
+	model = "models/2rek/printers/storage_large.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumLargestorage",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Petite ventilation", {
+	ent = "lithium_cooler_small",
+	model = "models/2rek/printers/cooler_small.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumsmallcooler",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Moyenne ventilation", {
+	ent = "lithium_cooler_medium",
+	model = "models/2rek/printers/cooler_medium.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiummediumcooler",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+	
+DarkRP.createEntity( "Grande ventilation", {
+	ent = "lithium_cooler_large",
+	model = "models/2rek/printers/cooler_large.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumlargecooler",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Petit Overclocker", {
+	ent = "lithium_overclocker_small",
+	model = "models/2rek/printers/overclocker_small.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumsmalloverclocker",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Overclocker moyen", {
+	ent = "lithium_overclocker_medium",
+	model = "models/2rek/printers/overclocker_medium.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiummediumoverclocker",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Grand Overclocker", {
+	ent = "lithium_overclocker_large",
+	model = "models/2rek/printers/overclocker_large.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumlargeoverclocker",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Petite alimentation", {
+	ent = "lithium_power_small",
+	model = "models/2rek/printers/power_small.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumsmallpower",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Alimentation moyenne", {
+	ent = "lithium_power_medium",
+	model = "models/2rek/printers/power_medium.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiummediumpower",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Grosse alimentation", {
+	ent = "lithium_power_large",
+	model = "models/2rek/printers/power_large.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumlargepower",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Rack d'imprimante", {
+	ent = "lithium_printer_rack",
+	model = "models/2rek/printers/printer_rack.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumprinterrack",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Petit panneau accoustique", {
+	ent = "lithium_silencer_small",
+	model = "models/2rek/printers/lithium_silencer.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumsmallsilencer",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Panneau accoustique moyen", {
+	ent = "lithium_silencer_medium",
+	model = "models/2rek/printers/lithium_silencer.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiummediumsilencer",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Grand panneau accoustique", {
+	ent = "lithium_silencer_large",
+	model = "models/2rek/printers/lithium_silencer.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumlargesilencer",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Convertisseur", {
+	ent = "lithium_converter",
+	model = "models/2rek/printers/lithium_converter.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumconverter",
+	category = "Accessoires",
+	sortOrder = 90,
+})
+
+DarkRP.createEntity( "Fusible", {
+	ent = "lithium_fuse",
+	model = "models/2rek/printers/lithium_fuse.mdl",
+	price = 1250,
+	max = 2,
+	cmd = "buylithiumfuse",
+	category = "Accessoires",
+	sortOrder = 90,
+})
